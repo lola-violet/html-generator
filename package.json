@@ -1,0 +1,23 @@
+{
+  "name": "html-generator",
+  "version": "1.0.0",
+  "description": "UWBC MiniProject - 09 NodeJS: HTML Profile Generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lola-violet/html-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lola-violet/html-generator/issues"
+  },
+  "homepage": "https://github.com/lola-violet/html-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.2"
+  }
+}
