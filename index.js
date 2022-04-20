@@ -53,7 +53,7 @@ inquirer.prompt([
         </head>
         <body>
             <header>
-                <h1>${username}</h1>
+                <h1 id="headerUsername">${username}</h1>
             </header>
             <main>
                 <h2>I'm located in ${location}</h2>
@@ -71,6 +71,4 @@ inquirer.prompt([
     fs.writeFile(`${username}.html`, htmlPage, (error, data) =>
         error ? console.error(error) : console.log("success")
     );
-
 });
-
